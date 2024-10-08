@@ -12,12 +12,17 @@
     crossorigin="anonymous"></script>
   <title>Church Website</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<link rel="icon" href="bg.jpg">
   <link rel="stylesheet" href="style.css">
    <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
   />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
 </head>
 
 <body>
@@ -77,11 +82,11 @@
 
     <div class="main2-left">
 
-      <img src="one.jpg" alt="">
+      <img src="one.jpg" alt="" data-aos="fade-right">
 
     </div>
 
-    <div class="main2-right">
+    <div data-aos="fade-left" class="main2-right">
 
       <h1>Welcome to <span class="right-span">Christian</span> Church</h1>
 
@@ -114,15 +119,15 @@
 
 
 
-  <div class="container-fluid main4">
+  <div  class="container-fluid main4" >
     <h1>Church Pastor</h1>
 
     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 
 
-    <div class="bmw">
+    <div class="bmw" >
 
-      <div class="pastor-cards">
+      <div class="pastor-cards" data-aos="zoom-in-left" >
         <img src="pastor4.webp" alt="">
 
         <h2>Lloyd Wilson</h2>
@@ -134,7 +139,7 @@
         <i class="fa-brands fa-google-plus-g"></i>
         <i class="fa-brands fa-instagram"></i>
       </div>
-      <div class="pastor-cards">
+      <div class="pastor-cards" data-aos="fade-right">
 
         <img src="pastor3.webp" alt="">
 
@@ -164,7 +169,7 @@
         <i class="fa-brands fa-google-plus-g"></i>
         <i class="fa-brands fa-instagram"></i>
       </div>
-      <div class="pastor-cards">
+      <div class="pastor-cards " data-aos="fade-left">
 
         <img src="pastor1.webp" alt="">
 
@@ -184,6 +189,7 @@
   </div>
 
   <div class="main5" id='qwe'>
+
     <h1>Contact Me</h1>
 
     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
@@ -210,6 +216,7 @@
         <p>www.youtube.com</p>
 
             </div>
+
       <div class="a5center-right">
 
         <form>
@@ -238,6 +245,7 @@
     </div>
 
   </div>
+  
   <footer class="foottt">
 
     <span> Copyright &copy; All Right Reserved</span>
@@ -251,6 +259,10 @@
 
 
   </script>
+
+<script>
+  AOS.init();
+</script>
 
 </body>
 
